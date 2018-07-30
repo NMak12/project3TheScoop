@@ -1,0 +1,64 @@
+---
+  users: 
+    Nick: 
+      username: "Nick"
+      articleIds: 
+        - 1
+        - 2
+      commentIds: 
+        - 1
+        - 2
+        - 3
+  articles: 
+    1: 
+      id: 1
+      title: "Article1"
+      url: "/article1"
+      username: "Nick"
+      commentIds: 
+        - 1
+        - 2
+      upvotedBy: []
+      downvotedBy: []
+      comments: []
+    2: 
+      id: 2
+      title: "Article2"
+      url: "article2"
+      username: "Nick"
+      commentIds: 
+        - 3
+      upvotedBy: []
+      downvotedBy: []
+      comments: 
+        - 
+          id: 3
+          body: "comment 3"
+          username: "Nick"
+          articleId: 2
+          upvotedBy: []
+          downvotedBy: []
+  comments: 
+    1: 
+      id: 1
+      body: "comment 1"
+      username: "Nick"
+      articleId: 1
+      upvotedBy: []
+      downvotedBy: []
+    2: 
+      id: 2
+      body: "comment 2"
+      username: "Nick"
+      articleId: 1
+      upvotedBy: []
+      downvotedBy: []
+    3: 
+      id: 3
+      body: "comment 3"
+      username: "Nick"
+      articleId: 2
+      upvotedBy: []
+      downvotedBy: []
+  nextArticleId: 3
+  nextCommentId: 4
